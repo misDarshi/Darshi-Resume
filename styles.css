@@ -1,0 +1,114 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7b25a; /* Light background color for contrast */
+    color: #1d1515; /* Darker text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(5, 64, 90);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #c6e2d4; /* Sage green border */
+}
+
+.header-text h1 {
+    color: #e2acac; /* Olive green for the name */
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    color: #e8c320; /* Brown color for other text */
+    margin: 5px 0;
+}
+
+a {
+    color: #a2e3e8; /* Olive green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation buttons */
+nav {
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    background-color: #c6e2d4; /* Sage green */
+    color: #53ab63; /* Olive green text */
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #310f68; /* Slightly darker sage green */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Content sections */
+.content-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #32727e; /* Sage green border */
+    border-radius: 5px;
+    background-color: #dcca99; /* Light beige background */
+    transition: background-color 0.3s ease;
+}
+
+.content-section h2 {
+    color: #913018; /* Olive green for section headings */
+}
+
+.content-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Highlighted section style */
+.highlighted {
+    background-color: #e0f7fa; /* Light teal background color for highlighting */
+    border-left: 5px solid #035b51; /* Dark teal border for visual emphasis */
+    padding-left: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e23e67; /* Olive green background */
+    color: #fff; /* White text */
+    border-radius: 0 0 10px 10px;
+}
